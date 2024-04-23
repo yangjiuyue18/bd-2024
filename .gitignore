@@ -20,3 +20,5 @@ target/
 .DS_Store
 Thumbs.db
 *.log
+tasks/big_file.bin
+.gitignore
