@@ -22,3 +22,4 @@ Thumbs.db
 *.log
 tasks/big_file.bin
 .gitignore
+tasks/wiki.txt
