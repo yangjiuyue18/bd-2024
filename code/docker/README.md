@@ -2,7 +2,7 @@
 
 Для сборки образа:
 
-> docker build -t our_first_image
+> docker build -t our_first_image .
 
 для запуска контейнера
 

@@ -13,8 +13,10 @@ def election_func():
 def main():
     zk = KazooClient(hosts='127.0.0.1:2181')
     zk.start()    
+
     election = zk.Election("/node")    
     print("Waiting for election")
+    
     election.run(election_func)
     
 
